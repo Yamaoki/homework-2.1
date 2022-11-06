@@ -1,8 +1,8 @@
 public class Human {
-    String name;
-    String town;
-    int yearOfBirth;
-    String job;
+    private final String name;
+    private final String town;
+    private final int yearOfBirth;
+    private final String job;
 
     Human(String name, String town, int year, String job) {
         if (year > 0) {
